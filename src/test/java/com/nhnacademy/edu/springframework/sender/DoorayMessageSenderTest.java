@@ -13,22 +13,18 @@ import static org.mockito.Mockito.*;
 
 class DoorayMessageSenderTest {
 
-    @Mock
-    private DoorayHookSender doorayHookSender;
-
-    @Mock
     private User user;
-
     private String message;
 
+    @Mock
+    private DoorayHookSender doorayHookSender;
     @InjectMocks
     private DoorayMessageSender doorayMessageSender;
 
     @BeforeEach
     public void setup() {
         MockitoAnnotations.initMocks(this);
-        when(user.getUserName()).thenReturn("testUser");
-        when(user.getUserNumber()).thenReturn("testUserNum");
+        user = new User("testUser", "testUserNum");
         message = "테스트 메시지";
     }
 
