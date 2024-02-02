@@ -1,7 +1,6 @@
 package com.nhnacademy.edu.springframework.configuration;
 
 import com.nhn.dooray.client.DoorayHookSender;
-import com.nhnacademy.edu.springframework.annotation.Dooray;
 import com.nhnacademy.edu.springframework.aop.MethodAspect;
 import com.nhnacademy.edu.springframework.sender.DoorayMessageSender;
 import com.nhnacademy.edu.springframework.service.MessageSendService;
