@@ -1,5 +1,6 @@
 package com.nhnacademy.edu.springframework.service;
 
+import com.nhnacademy.edu.springframework.annotation.Dooray;
 import com.nhnacademy.edu.springframework.domain.User;
 import com.nhnacademy.edu.springframework.sender.MessageSender;
 
