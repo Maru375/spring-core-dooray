@@ -4,8 +4,9 @@ import com.nhn.dooray.client.DoorayHook;
 import com.nhn.dooray.client.DoorayHookSender;
 import com.nhnacademy.edu.springframework.annotation.Dooray;
 import com.nhnacademy.edu.springframework.domain.User;
+import org.springframework.stereotype.Component;
 
-
+@Component
 public class DoorayMessageSender implements MessageSender{
 
     private final DoorayHookSender doorayHookSender;
